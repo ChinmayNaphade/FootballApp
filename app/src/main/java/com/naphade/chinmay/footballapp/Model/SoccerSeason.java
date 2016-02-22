@@ -6,9 +6,6 @@ import com.google.gson.annotations.SerializedName;
 
 public class SoccerSeason {
 
-    @SerializedName("_links")
-    @Expose
-    private com.naphade.chinmay.footballapp.Model.Links Links;
     @SerializedName("id")
     @Expose
     private int id;
@@ -37,19 +34,6 @@ public class SoccerSeason {
     @Expose
     private String lastUpdated;
 
-    /**
-     * @return The Links
-     */
-    public com.naphade.chinmay.footballapp.Model.Links getLinks() {
-        return Links;
-    }
-
-    /**
-     * @param Links The _links
-     */
-    public void setLinks(com.naphade.chinmay.footballapp.Model.Links Links) {
-        this.Links = Links;
-    }
 
     /**
      * @return The id

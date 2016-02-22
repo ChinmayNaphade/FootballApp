@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onCompleted() {
                         Log.e(TAG, "onCompleted: ");
-                        Snackbar.make(layout, "It works", Snackbar.LENGTH_LONG)
+                        Snackbar.make(layout, "Completed", Snackbar.LENGTH_LONG)
                                 .show();
                     }
 
